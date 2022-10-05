@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 350px;
+    margin: auto;
+}
+.box h1{
+    margin-top: 10%;
+    text-align: center;
+    position: relative;
+}
+
+h1::after{
+    content: '';
+    width: 50%;
+    border: 2px solid;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+
+h1::before{
+    content: '';
+    width: 50%;
+    border: 2px dotted;
+    bottom: 0px;
+    right: 0;
+    position: absolute;
+}
